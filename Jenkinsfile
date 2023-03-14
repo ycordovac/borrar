@@ -1,5 +1,3 @@
-stage('Test') {
-  steps {
-    echo 'Testing...'
-  }
+steps {
+  echo 'Testing...'
 }
