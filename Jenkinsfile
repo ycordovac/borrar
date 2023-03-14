@@ -1,7 +1,5 @@
-  stages {
-    stage('Test') {
-      steps {
-        echo 'Testing...'
-      }
-    }
+stage('Test') {
+  steps {
+    echo 'Testing...'
   }
+}
