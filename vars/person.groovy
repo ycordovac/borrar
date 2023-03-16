@@ -1,7 +1,8 @@
 import org.foot.Person
 
 def crearPerson(String nombre, String apellidos) {
-  return new Person(nombre: nombre, apellidos: apellidos)
+  def returnValue = new Person(nombre: nombre, apellidos: apellidos)
+  return returnValue
 }
 
 def printName(){
