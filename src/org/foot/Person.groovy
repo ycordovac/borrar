@@ -5,6 +5,6 @@ class Person{
     String apellidos
 
     void imprimirNombreRojo(){
-        println(nombre) 
+        println("$nombre") 
     }
 }
