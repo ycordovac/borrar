@@ -1,4 +1,4 @@
-package org.foo
+package org.foot
 
 class Person{
     String nombre
