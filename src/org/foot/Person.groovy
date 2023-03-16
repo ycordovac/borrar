@@ -5,6 +5,6 @@ class Person{
     String apellidos
 
     void imprimirNombreRojo(){
-        println("\033[31m${nombre}\033[0m") 
+        log.error(nombre) 
     }
 }
