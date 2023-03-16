@@ -1,6 +1,6 @@
 import org.foot.Person
 
-def crearPersona(String nombre, String apellidos) {
+def crearPerson(String nombre, String apellidos) {
   return new Person(nombre: nombre, apellidos: apellidos)
 }
 

@@ -1,6 +1,6 @@
 package org.foo
 
-class  Persona {
+class  Person {
     String nombre
     String appelidos
 
