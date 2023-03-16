@@ -6,7 +6,7 @@ def call(Map pipelineParams){
                 steps {
                     echo "Primer Trabajo"
                     script{
-                        println('pingaaaaaaaaaaaaaaaaaaaaaaaaaa')
+                        println(pipelineParams.imprimir)
                         person.printName()
                     }
                 }
