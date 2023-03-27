@@ -5,8 +5,7 @@ class Person{
     String apellidos
 
     void imprimirNombreRojo(){
-        println('si') 
         println(nombre) 
-        println('no') 
+        println(apellidos)
     }
 }
