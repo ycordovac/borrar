@@ -1,12 +1,14 @@
 import org.foot.Person
 
 def crearPerson(String nombre, String apellidos) {
-  def returnValue = new Person(nombre: nombre, apellidos: apellidos)
-  return returnValue
+  println(nom)
+  p=new Person(nombre, apellidos)
+  println(p)
+  returnValue p 
 }
 
 def printName(){
-    println('name')
+    println('name1')
 }
 
 def printSecondName(){
