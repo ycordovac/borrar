@@ -1,7 +1,9 @@
 @Library('gitlib') _
 
 pipeline {
-    scriptcallyaml
+    agent {
+        scriptcallyaml
+    }
     options {
         timestamps()
         skipDefaultCheckout true
