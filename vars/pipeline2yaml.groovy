@@ -1,9 +1,9 @@
 @Library('gitlib') _
 
+def scriptValues=scriptcallyaml
+
 pipeline {
-    agent {
-        scriptcallyaml()
-    }
+    agent none
     options {
         timestamps()
         skipDefaultCheckout true
@@ -13,7 +13,10 @@ pipeline {
         stage ('Firts Job') {
             steps {
                 script{
-                    println('hola mundo')
+                    agent{
+                        scriptallyaml
+                        println('hola mundo')
+                    }
                 }
             }
         }
