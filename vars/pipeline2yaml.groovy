@@ -2,7 +2,7 @@
 
 pipeline {
     agent {
-        scriptcallyaml
+        scriptcallyaml()
     }
     options {
         timestamps()

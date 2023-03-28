@@ -3,5 +3,5 @@ def call() {
     // pipeline {
     //     agent { label agent.label }
     // }
-    any
+    agent { any }
 }
