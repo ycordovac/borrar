@@ -3,5 +3,7 @@ def call() {
     pipeline {
         agent { label agent.label }
     }
-    println('from call def')
+    script {
+        println('from call def')
+    }
 }
