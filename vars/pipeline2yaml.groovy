@@ -1,7 +1,7 @@
 @Library('gitlib') _
 
 pipeline {
-    scriptcallyaml()
+    scriptcallyaml
     options {
         timestamps()
         skipDefaultCheckout true
