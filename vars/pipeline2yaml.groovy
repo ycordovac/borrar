@@ -1,4 +1,5 @@
 @Library('gitlib') _
+import hudson.slaves.ComputerLauncher;
 
 def scriptValues=scriptcallyaml
 
@@ -15,8 +16,10 @@ pipeline {
                 script{
                     agent{
                         scriptallyaml
-                        println('hola mundo')
                     }
+                    // println (it.getDisplayName().matches(/agent.label/) )
+                    def agente = Jenkins.get().getDescriptorList(ComputerLauncher.class);
+                    println "El agente existe: ${agente}"
                 }
             }
         }
